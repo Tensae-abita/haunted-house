@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏚️ Haunted House — Three.js Journey
+# 🏚️ Haunted House
 
 **A spooky procedural 3D scene built with Three.js: a fog-shrouded house, a graveyard of tombstones, and wandering ghost lights, all rendered in real time on the web.**
 
@@ -13,9 +13,7 @@
 
 ## Overview
 
-This is exercise 16 from the [Three.js Journey](https://threejs-journey.com/) course — a from-scratch, WebGL-rendered haunted house scene. It's built with raw Three.js (no game engine, no React wrapper) to practice core rendering concepts: PBR materials driven by texture maps, real-time shadows, fog, animated point lights, and a `lil-gui` debug panel for tweaking the scene live.
-
-The scene composes a textured house (walls, roof, door with door-light), scattered bushes, a graveyard of low-poly tombstones, and a set of ghost lights that orbit the house on independent sinusoidal paths — all wrapped in exponential fog and moonlit ambient/directional lighting for atmosphere.
+A from-scratch, WebGL-rendered haunted house scene built with raw Three.js — no game engine, no framework wrapper. The scene composes a textured house (walls, roof, door with door-light), scattered bushes, a graveyard of low-poly tombstones, and a set of ghost lights that orbit the house on independent sinusoidal paths — all wrapped in exponential fog and moonlit ambient/directional lighting for atmosphere.
 
 ## ✨ Features
 
@@ -45,8 +43,8 @@ The scene composes a textured house (walls, roof, door with door-light), scatter
 ### Installation
 
 ```bash
-git clone https://github.com/Tensae-abita/16-haunted-house.git
-cd 16-haunted-house
+git clone https://github.com/Tensae-abita/haunted-house.git
+cd haunted-house
 npm install
 ```
 
@@ -84,9 +82,3 @@ Most tweakable values (light colors/intensities, fog density, material roughness
 ## 📄 License
 
 This project is licensed under the MIT License — see the [LICENSE](./LICENSE) file for details.
-
----
-
-<div align="center">
-Built while learning WebGL fundamentals through <a href="https://threejs-journey.com/">Three.js Journey</a>.
-</div>
